@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    font-family: "Roboto", serif;
+}
+
+#hero {
+   background-color: #1f2937;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   padding-bottom: 120px;
+   padding-top: 20px;
+}
+
+header {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+}
+.logo-bx p{
+    font-size: 24px;
+    color: #f9faf8;
+    line-height: 32px;
+    font-family:
+}
+.nav-link-box a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto";
+    transition: all 0.3s ease;
+}
+.nav-link-box:hover a {
+    color: #fff;
+}
+.hero-content-box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    align-self: center;
+    max-height: 250px;
+}
+.hero-content-txtbx, .hero-img {
+    width: 50%;
+}
+.hero-content-txtbx {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.hero-img {
+    position: relative;
+    height: 250px;
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    inset: 0;
+}
+.hero-heading {
+    max-width: 400px;
+}
+.hero-heading h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 52px;
+    color: #f9faf8;
+    font-family: "Roboto";
+}
+.hero-para p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #e5e7eb;
+    font-family: "Roboto";
+}
+.hero-cta button {
+    background: #3882f6;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
